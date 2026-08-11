@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sundus | Frontend Developer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--==========================
+        NAVBAR
+===========================-->
+    <header>
+        <nav class="navbar">
+            <div class="container nav-container">
+                <a href="#" class="logo">
+                    <div class="logo-img-wrapper">
+                        <img src="logos.jpg" alt="Sundus Logo" />
+                    </div>
+                    <div class="logo-text">
+                        <h2>Sundus</h2>
+                        <span>Frontend Developer</span>
+                    </div>
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==========================
+        HERO SECTION
+===========================-->
+    <section class="hero" id="home">
+        <div class="blur blur1"></div>
+        <div class="blur blur2"></div>
+        <div class="container hero-container">
+            <!-- Left -->
+            <div class="hero-left">
+                <p class="welcome">👋 Welcome To My Portfolio</p>
+                <h1>Hi, I'm <span>Sundus</span></h1>
+                <h2><span id="typing"></span></h2>
+                <p class="hero-description">
+                    I build modern, responsive and user-friendly websites that help businesses create a strong online
+                    presence.
+                    I'm passionate about creating clean UI designs, interactive websites and professional digital
+                    experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#services" class="btn btn-outline">
+                        <i class="fa-solid fa-download"></i> Services
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/sundussu" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/sundas-saleem-353120418" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="hero-right">
+                <div class="image-box">
+                    <div class="circle-animation"></div>
+                    <img src="pic.png" alt="Sundus">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fa-solid fa-angles-down"></i></a>
+        </div>
+    </section>
+
+    <!-- ==========================
+         ABOUT SECTION
+=========================== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <span>About Me</span>
+                <h2>Know More About Me</h2>
+                <p>Passionate Frontend Developer dedicated to creating modern, responsive and user-friendly websites.
+                </p>
+            </div>
+
+            <div class="about-container">
+                <!-- Left Side -->
+                <div class="about-image fade-left">
+                    <div class="about-img-box">
+                        <img src="img2.png" alt="About Image">
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="about-content fade-right">
+                    <h3>I'm <span>Sundus</span></h3>
+                    <h4>Frontend Developer | B.Sc Graduate | Software Engineering Student</h4>
+                    <p>
+                        I am a passionate Frontend Developer with a strong foundation in HTML, CSS, JavaScript and
+                        Bootstrap.
+                        I enjoy designing responsive, interactive and visually attractive websites that provide an
+                        excellent user experience.
+                        Along with Frontend Development, I also have experience in Data Entry and Lead Generation.
+                    </p>
+
+
+                </div>
+                <a href="#contact" class="btn btn-primary">Let's Talk</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--=========================
+      SKILLS SECTION
+==========================-->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <span>My Skills</span>
+                <h2>Technical Skills</h2>
+                <p>These are the technologies and tools I use to create responsive, modern and user-friendly websites.
+                </p>
+            </div>
+
+            <div class="skills-container">
+                <!-- Left -->
+                <div class="skills-text fade-left">
+                    <h3>Why Choose Me?</h3>
+                    <p>I build clean, responsive and modern websites using the latest frontend technologies. I always
+                        focus on performance, user experience, attractive UI design and client satisfaction.</p>
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                </div>
+
+                <!-- Right -->
+                <div class="skills-bars fade-right">
+                    <div class="skill">
+                        <div class="info"><span>HTML5</span><span>95%</span></div>
+                        <div class="progress">
+                            <div class="progress-bar html"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>CSS3</span><span>92%</span></div>
+                        <div class="progress">
+                            <div class="progress-bar css"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>JavaScript</span><span>85%</span></div>
+                        <div class="progress">
+                            <div class="progress-bar js"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>Bootstrap</span><span>90%</span></div>
+                        <div class="progress">
+                            <div class="progress-bar bootstrap"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>Git & GitHub</span><span>80%</span></div>
+                        <div class="progress">
+                            <div class="progress-bar git"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>XML</span><span>75%</span></div>
+                        <div class="progress">
+                            <div class="progress-bar xml"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=========================
+      SERVICES SECTION
+==========================-->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <span>My Services</span>
+                <h2>What I Can Do</h2>
+                <p>I provide modern web solutions with creativity, clean code, and user-friendly designs to help
+                    businesses grow online.</p>
+            </div>
+
+            <div class="services-container">
+                <div class="service-card fade-up">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Responsive and modern websites using HTML, CSS, JavaScript and Bootstrap.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites optimized for Desktop, Tablet and Mobile devices.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>UI / UX Design</h3>
+                    <p>Clean, modern and attractive user interfaces with a great user experience.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <h3>Landing Pages</h3>
+                    <p>Professional landing pages designed to increase customer engagement and conversions.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Data Entry</h3>
+                    <p>Accurate data entry, web research and organized data management services.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <h3>Lead Generation</h3>
+                    <p>High-quality targeted leads to help businesses find potential customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================
+            PROJECTS SECTION
+======================================= -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-heading fade-up">
+                <span>My Portfolio</span>
+                <h2>Featured Projects</h2>
+                <p>Here are some of my best projects that showcase my frontend development skills, responsive design,
+                    and creativity.</p>
+            </div>
+
+            <div class="projects-container">
+                <!-- PROJECT 1 -->
+                <div class="project-card fade-up">
+                    <span class="featured-badge">Featured</span>
+                    <div class="project-image">
+                        <img src="images/portfolio.jpg" alt="Premium Portfolio">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn"><i class="fa-solid fa-eye"></i> Live Demo</a>
+                            <a href="#" class="project-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">💼 Personal Portfolio</span>
+                        <h3>Premium Portfolio Website</h3>
+                        <p>A modern personal portfolio website designed with Glassmorphism UI, animations, responsive
+                            layout and professional user experience.</p>
+                        <div class="project-details"><span>📅 2026</span><span>⭐ Advanced</span></div>
+                        <div class="tech">
+                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="project-card fade-up">
+    <div class="project-image">
+        <img src="ryana-calendar.jpg.png" alt="Rayana Calendar">
+
+        <div class="project-overlay">
+            <!-- Live Demo Button -->
+            <a href="https://sundussu.github.io/ryana-calendar/" target="_blank" class="project-btn">
+                <i class="fa-solid fa-eye"></i> Live Demo
+            </a>
+
+            <!-- GitHub Button -->
+            <a href="https://github.com/sundussu/ryana-calendar" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+
+    <div class="project-content">
+        <span class="project-category">📅 Calendar Website</span>
+
+        <h3>Ryana Calendar</h3>
+
+        <p>
+            A premium responsive e-commerce website for Calendars, Diaries,
+            Journals, Stationery, and Gift Items. Built with HTML5, CSS3,
+            Bootstrap 5, and JavaScript, featuring a modern UI, responsive
+            design, search functionality, shopping cart, and product pages.
+        </p>
+
+        <div class="project-details">
+            <span>📅 2026</span>
+            <span>⭐ Intermediate</span>
+        </div>
+
+        <div class="tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Bootstrap 5</span>
+            <span>JavaScript</span>
+        </div>
+    </div>
+</div>
+
+                <!-- PROJECT 3 -->
+               <div class="project-card fade-up">
+    <div class="project-image">
+        <img src="Elite_events.png" alt="Elite Event">
+
+        <div class="project-overlay">
+            <!-- Live Demo Button -->
+            <a href="https://sundussu.github.io/Elite_Events/" target="_blank" class="project-btn">
+                <i class="fa-solid fa-eye"></i> Live Demo
+            </a>
+
+            <!-- GitHub Button -->
+            <a href="https://github.com/sundussu/Elite_Events" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+
+    <div class="project-content">
+        <span class="project-category">🎉 Event Management</span>
+        <h3>Elite Event</h3>
+
+        <p>
+            Professional event management website featuring responsive design,
+            smooth navigation and elegant UI.
+        </p>
+
+        <div class="project-details">
+            <span>📅 2026</span>
+            <span>⭐ Intermediate</span>
+        </div>
+
+        <div class="tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Bootstrap</span>
+        </div>
+    </div>
+</div>
+
+                <!-- PROJECT 4 -->
+                <div class="project-card fade-up">
+    <div class="project-image">
+        <img src="Littlenest.png" alt="LittleNest">
+
+        <div class="project-overlay">
+
+            <!-- Live Demo -->
+            <a href="https://sundussu.github.io/LittleNest/"
+               target="_blank"
+               class="project-btn">
+                <i class="fa-solid fa-eye"></i> Live Demo
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/sundussu/LittleNest"
+               target="_blank"
+               class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+
+        </div>
+    </div>
+
+    <div class="project-content">
+        <span class="project-category">🛍️ E-Commerce Website</span>
+
+        <h3>LittleNest Store</h3>
+
+        <p>
+            A modern e-commerce website with responsive layout,
+            attractive product cards, shopping categories, offer
+            banners and user-friendly interface.
+        </p>
+
+        <div class="project-details">
+            <span>📅 2026</span>
+            <span>⭐ Advanced</span>
+        </div>
+
+        <div class="tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Bootstrap</span>
+            <span>Firebase</span>
+        </div>
+    </div>
+</div>
+
+                <!-- PROJECT 5 -->
+                <div class="project-card fade-up">
+    <div class="project-image">
+        <img src="career_guide.png" alt="CareerGuide AI">
+
+        <div class="project-overlay">
+            <!-- Live Demo Button -->
+            <a href="https://sundussu.github.io/career_guide/" target="_blank" class="project-btn">
+                <i class="fa-solid fa-eye"></i> Live Demo
+            </a>
+
+            <!-- GitHub Button -->
+            <a href="https://github.com/sundussu/career_guide" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+
+    <div class="project-content">
+        <span class="project-category">🤖 AI Web Application</span>
+
+        <h3>CareerGuide AI</h3>
+
+        <p>
+            An AI-powered career guidance platform that helps students explore
+            careers, learning paths, skills, and educational opportunities.
+            Built using HTML5, CSS3, JavaScript, and a modern responsive UI.
+        </p>
+
+        <div class="project-details">
+            <span>📅 2026</span>
+            <span>⭐ Advanced</span>
+        </div>
+
+        <div class="tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>AI UI</span>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!--====================================
+        EXPERIENCE & EDUCATION
+=====================================-->
+    <section class="timeline section" id="experience">
+        <div class="container">
+            <div class="section-heading fade-up">
+                <span>My Journey</span>
+                <h2>Experience & Education</h2>
+                <p>My learning journey, education and practical experience in frontend development.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-item fade-left">
+                    <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Completed</span>
+                        <h3>Bachelor of Science (B.Sc)</h3>
+                        <p>Successfully completed my Bachelor of Science degree and developed a strong interest in
+                            technology, programming and web development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-right">
+                    <div class="timeline-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2026 - Present</span>
+                        <h3>ACCP AI (3-Year Diploma) – Aptech</h3>
+                        <p>Currently enrolled in the ACCP AI Software Engineering Diploma. Completed the first 6 months
+                            and learning HTML, CSS, JavaScript, Bootstrap, Git & GitHub, XML and modern frontend
+                            development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-left">
+                    <div class="timeline-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Frontend Journey</span>
+                        <h3>Frontend Development</h3>
+                        <p>Built multiple responsive websites including Premium Portfolio, Rayana Calendar, Elite Event,
+                            LittleNest Store and CareerGuide AI.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-right">
+                    <div class="timeline-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Future Goal</span>
+                        <h3>Freelancing Career</h3>
+                        <p>My goal is to become a successful Frontend Developer, build professional websites for
+                            international clients and establish a strong freelancing career.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=====================================
+        CERTIFICATES SECTION
+======================================-->
+    <section class="certificates section" id="certificates">
+        <div class="container">
+            <div class="section-heading fade-up">
+                <span>Achievements</span>
+                <h2>Certificates & Learning</h2>
+                <p>Every completed course and project is a step towards becoming a professional Frontend Developer.</p>
+            </div>
+
+            <div class="certificate-container">
+                <div class="certificate-card fade-up">
+                    <div class="certificate-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML5</h3>
+                    <p>Frontend Development</p>
+                    <span class="verified">✔ Verified</span>
+                </div>
+                <div class="certificate-card fade-up">
+                    <div class="certificate-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3>CSS3</h3>
+                    <p>Responsive Web Design</p>
+                    <span class="verified">✔ Verified</span>
+                </div>
+                <div class="certificate-card fade-up">
+                    <div class="certificate-icon"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive Web Development</p>
+                    <span class="verified">✔ Verified</span>
+                </div>
+                <div class="certificate-card fade-up">
+                    <div class="certificate-icon"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                    <span class="verified">✔ Verified</span>
+                </div>
+                <div class="certificate-card fade-up">
+                    <div class="certificate-icon"><i class="fas fa-code"></i></div>
+                    <h3>XML</h3>
+                    <p>Markup Language</p>
+                    <span class="verified">✔ Verified</span>
+                </div>
+                <div class="certificate-card featured fade-up">
+                    <div class="certificate-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>ACCP AI Diploma</h3>
+                    <p>Software Engineering (Year 1)</p>
+                    <span class="ongoing">🚀 Ongoing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================================
+          WHY HIRE ME
+=====================================-->
+    <section class="hire section" id="hire">
+        <div class="container">
+            <div class="section-heading fade-up">
+                <span>Why Choose Me</span>
+                <h2>Why Hire Me?</h2>
+                <p>I am passionate about creating modern, responsive and user-friendly websites that help businesses
+                    grow online.</p>
+            </div>
+
+            <div class="hire-container">
+                <div class="hire-card fade-up">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Modern Web Design</h3>
+                    <p>Clean, responsive and attractive website designs using modern technologies.</p>
+                </div>
+                <div class="hire-card fade-up">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Fully Responsive</h3>
+                    <p>Websites that work perfectly on Desktop, Tablet and Mobile devices.</p>
+                </div>
+                <div class="hire-card fade-up">
+                    <i class="fas fa-code"></i>
+                    <h3>Clean Code</h3>
+                    <p>Well-structured, readable and maintainable HTML, CSS and JavaScript code.</p>
+                </div>
+                <div class="hire-card fade-up">
+                    <i class="fas fa-clock"></i>
+                    <h3>On-Time Delivery</h3>
+                    <p>I value deadlines and always try to deliver projects on time.</p>
+                </div>
+                <div class="hire-card fade-up">
+                    <i class="fas fa-comments"></i>
+                    <h3>Good Communication</h3>
+                    <p>Friendly communication and regular project updates throughout the work.</p>
+                </div>
+                <div class="hire-card fade-up">
+                    <i class="fas fa-heart"></i>
+                    <h3>Client Satisfaction</h3>
+                    <p>My priority is delivering quality work and ensuring client satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ CONTACT SECTION =================-->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h5>CONTACT</h5>
+                <h2>Let's Work Together</h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>sundassaleem429@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>Available for Freelance Work</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form strictly formatted for EmailJS (using image_b2cd01.png variables) -->
+                <form class="contact-form" id="contactForm">
+                    <input type="text" id="name" name="from_name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="from_email" placeholder="Your Email" required>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+                    <button type="submit" id="sendBtn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--================ FOOTER =================-->
+   <footer>
+    <div class="container">
+
+        <div class="footer-logo">
+            <h2>Sundus Saleem</h2>
+        </div>
+
+        <p>
+            Frontend Developer • Data Entry Specialist • Lead Generation Expert
+        </p>
+
+        <div class="footer-social">
+
+            <!-- GitHub -->
+            <a href="https://github.com/sundussu"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/sundas-saleem-353120418/"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/sundus77646/"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Sundus Saleem. All Rights Reserved.
+        </p>
+
+    </div>
+</footer>
+    <!-- External Script -->
+    <script src="script.js"></script>
+
+    <!-- 1. EmailJS Browser SDK (CDN) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- 2. EmailJS Initialization and Submit Handler (Using credentials from image_b2cd01.png) -->
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("SrLj0qkBXRMLuSUXl"); // Public Key from image_b2cd01.png
+        })();
+
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const btn = document.getElementById('sendBtn');
+            btn.innerHTML = 'Sending... <i class="fas fa-spinner fa-spin"></i>';
+            btn.disabled = true;
+
+            const serviceID = 'service_cx19y7j';   // Service ID from image_b2cd01.png
+            const templateID = 'template_afivxoa'; // Template ID from image_b2cd01.png
+
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    btn.innerHTML = 'Send Message <i class="fas fa-paper-plane"></i>';
+                    btn.disabled = false;
+                    alert('Message Sent Successfully!');
+                    document.getElementById('contactForm').reset();
+                }, (err) => {
+                    btn.innerHTML = 'Send Message <i class="fas fa-paper-plane"></i>';
+                    btn.disabled = false;
+                    alert('Failed to send message. Error: ' + JSON.stringify(err));
+                });
+        });
+    </script>
+
+</body>
+
+</html>
